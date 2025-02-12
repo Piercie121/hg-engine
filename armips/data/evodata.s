@@ -16547,7 +16547,7 @@ evodata SPECIES_LEGEND
 terminateevodata
 
 evodata SPECIES_MAREEP_STALIXEAN
-    evolution EVO_LEVEL, 15, SPECIES_FLAAFFY_STALIXEAN
+    evolutionwithform EVO_LEVEL, 15, SPECIES_FLAAFFY, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -16559,7 +16559,7 @@ evodata SPECIES_MAREEP_STALIXEAN
 terminateevodata
 
 evodata SPECIES_FLAAFFY_STALIXEAN
-    evolution EVO_LEVEL, 30, SPECIES_AMPHAROS_STALIXEAN
+    evolutionwithform EVO_LEVEL, 30, SPECIES_AMPHAROS, 1 
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

@@ -1184,6 +1184,12 @@ const struct FormData UNUSED PokeFormDataTbl[]=
         .need_rev = 1,
         .file = SPECIES_CASTFORM_SNOWY,
     },
+	{
+		.species = SPECIES_CASTFORM,
+		.form_no = 4,
+		.need_rev = 1,
+		.file = SPECIES_CASTFORM_SANDY,
+	},
     {
         .species = SPECIES_CHERRIM,
         .form_no = 1,
@@ -1746,4 +1752,58 @@ const struct FormData UNUSED PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_URSALUNA_BLOODMOON,
     },
+	{
+		.species = SPECIES_LEGEND,
+		.form_no = 1,
+		.need_rev = 1,
+		.file = SPECIES_LEGEND_SUNNY,
+	},
+	{
+		.species = SPECIES_LEGEND,
+		.form_no = 2,
+		.need_rev = 1,
+		.file = SPECIES_LEGEND_RAINY,
+	},
+	{
+		.species = SPECIES_LEGEND,
+		.form_no = 3,
+		.need_rev = 1,
+		.file = SPECIES_LEGEND_SNOWY,
+	},
+	{
+		.species = SPECIES_LEGEND,
+		.form_no = 4,
+		.need_rev = 1,
+		.file = SPECIES_LEGEND_SANDY,
+	},
+	{
+		.species = SPECIES_MAREEP,
+		.form_no = 1,
+		.need_rev = 0,
+		.file = SPECIES_MAREEP_STALIXEAN,
+	},
+	{
+		.species = SPECIES_FLAAFFY,
+		.form_no = 1,
+		.need_rev = 0,
+		.file = SPECIES_FLAAFFY_STALIXEAN,
+	},
+	{
+		.species = SPECIES_AMPHAROS,
+		.form_no = 2,
+		.need_rev = 0,
+		.file = SPECIES_AMPHAROS_STALIXEAN,
+	},
+	{
+		.species = SPECIES_AMPHAROS,
+		.form_no = 3,
+		.need_rev = 1,
+		.file = SPECIES_MEGA_AMPHAROS_STALIXEAN,
+	},
+	{
+		.species = SPECIES_SUDOWOODO,
+		.form_no = 1,
+		.need_rev = 0,
+		.file = SPECIES_SUDOWOODO_STALIXEAN,
+	},
 };

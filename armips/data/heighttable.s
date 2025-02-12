@@ -1196,6 +1196,7 @@ heightentry SPECIES_PIKACHU_WORLD_CAP, 0, 0, 0, 0
 heightentry SPECIES_CASTFORM_SUNNY, 8, 8, 25, 25
 heightentry SPECIES_CASTFORM_RAINY, 8, 8, 25, 25
 heightentry SPECIES_CASTFORM_SNOWY, 8, 8, 25, 25
+heightentry SPECIES_CASTFORM_SANDY, 8, 8, 25, 25
 heightentry SPECIES_CHERRIM_SUNSHINE, 0, 0, 21, 21
 heightentry SPECIES_SHELLOS_EAST_SEA, 0, 0, 17, 17
 heightentry SPECIES_GASTRODON_EAST_SEA, 0, 0, 13, 13
@@ -1381,3 +1382,25 @@ heightentry SPECIES_OGERPON_HEARTHFLAME_MASK, 0, "null", 0, "null"
 heightentry SPECIES_OGERPON_CORNERSTONE_MASK, 0, "null", 0, "null"
 heightentry SPECIES_TERAPAGOS_STELLAR, 0, 0, 0, 0
 heightentry SPECIES_URSALUNA_BLOODMOON, 0, 0, 0, 0
+
+heightentry SPECIES_GRASS1, 8, 8, 18, 18
+heightentry SPECIES_GRASS2, 8, 8, 18, 18
+heightentry SPECIES_GRASS3, 8, 8, 18, 18
+heightentry SPECIES_FIRE1, 8, 8, 18, 18
+heightentry SPECIES_FIRE2, 8, 8, 18, 18
+heightentry SPECIES_FIRE3, 8, 8, 18, 18
+heightentry SPECIES_WATER1, 8, 8, 18, 18
+heightentry SPECIES_WATER2, 8, 8, 18, 18
+heightentry SPECIES_WATER3, 8, 8, 18, 18
+
+heightentry SPECIES_LEGEND, 8, 8, 25, 25
+heightentry SPECIES_LEGEND_SUNNY, 8, 8, 25, 25
+heightentry SPECIES_LEGEND_RAINY, 8, 8, 25, 25
+heightentry SPECIES_LEGEND_SNOWY, 8, 8, 25, 25
+heightentry SPECIES_LEGEND_SANDY, 8, 8, 25, 25
+
+heightentry SPECIES_MAREEP_STALIXEAN, 7, 7, 19, 19
+heightentry SPECIES_FLAAFFY_STALIXEAN, 9, 9, 19, 19
+heightentry SPECIES_AMPHAROS_STALIXEAN, 4, 4, 8, 8
+heightentry SPECIES_MEGA_AMPHAROS_STALIXEAN, 0, 0, 0, 0
+heightentry SPECIES_SUDOWOODO_STALIXEAN, 6, 6, 15, 15

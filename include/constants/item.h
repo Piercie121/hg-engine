@@ -863,6 +863,9 @@
 #define ITEM_HEARTHFLAME_MASK   (ITEM_PIXIE_PLATE + 214)
 #define ITEM_METAL_ALLOY        (ITEM_PIXIE_PLATE + 215)
 
+//Custom
+#define ITEM_WEATHER_LOCK      (ITEM_PIXIE_PLATE + 216)
+
 #define NUM_MEGA_STONES 48 // includes the pixie plate
 
 #define IS_ITEM_TERRAIN_SEED(item) (item >= ITEM_ELECTRIC_SEED && item <= ITEM_PSYCHIC_SEED)
@@ -898,7 +901,7 @@
 #ifdef ITEM_POCKET_EXPANSION
 
 // pixie plate + megas
-#define NUM_BAG_ITEMS        165+32+NUM_MEGA_STONES
+#define NUM_BAG_ITEMS        165+32+NUM_MEGA_STONES+1
 #define NUM_BAG_MEDICINE      40
 #define NUM_BAG_BALLS         24+2
 #define NUM_BAG_TMS_HMS      101

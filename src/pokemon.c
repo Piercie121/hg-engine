@@ -18,7 +18,7 @@
 #include "../include/constants/weather_numbers.h"
 
 
-#define NELEMS_POKEFORMDATATBL 287
+#define NELEMS_POKEFORMDATATBL 297
 
 extern u32 word_to_store_form_at;
 // [preevo] = {species, form}, [postevo] = {species, form},
@@ -418,9 +418,15 @@ u32 LONG_CALL PokeIconPalNumGet(u32 mons, u32 form, u32 isegg)
         {
             mons = 535 + form - 1;
         }
+		//Maybe not needed?
+		//PIERCE CHECK
         else if (mons == SPECIES_CASTFORM)
         {
             mons = 540 + form - 1;
+
+			//Fix for sandy castform to use pallette 0. May want more permanent fix
+			if (mons == 543)
+				mons--;
         }
         else if (mons == SPECIES_CHERRIM)
         {
@@ -1592,16 +1598,18 @@ bool8 LONG_CALL RevertFormChange(struct PartyPokemon *pp, u16 species, u8 form_n
         {
             if (species == PokeFormDataTbl[i].species && form_no == PokeFormDataTbl[i].form_no && PokeFormDataTbl[i].need_rev)
             {
-                if (species == SPECIES_DARMANITAN && form_no == 3)
-                    work = 1;
-                else if (species == SPECIES_NECROZMA)
-                    work = form_no-2;
-                else if (species == SPECIES_GRENINJA)
-                    work = 1;
-                else if (species == SPECIES_MINIOR)
-                    work = form_no-7;
-                else if (species == SPECIES_ZYGARDE)
-                    work = form_no-2;
+				if (species == SPECIES_DARMANITAN && form_no == 3)
+					work = 1;
+				else if (species == SPECIES_NECROZMA)
+					work = form_no - 2;
+				else if (species == SPECIES_GRENINJA)
+					work = 1;
+				else if (species == SPECIES_MINIOR)
+					work = form_no - 7;
+				else if (species == SPECIES_ZYGARDE)
+					work = form_no - 2;
+				else if (species == SPECIES_AMPHAROS && form_no == 3)
+					work = 2;
 
                 SetMonData(pp, MON_DATA_FORM, &work);
                 ret = TRUE;

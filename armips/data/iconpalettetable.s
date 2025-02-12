@@ -1100,6 +1100,18 @@ gIconPalTable:
 /* SPECIES_TERAPAGOS       */ .byte  0x0
 /* SPECIES_PECHARUNT       */ .byte  0x0
 
+/* SPECIES_GRASS1					   */ .byte  0x1
+/* SPECIES_GRASS2					   */ .byte  0x1
+/* SPECIES_GRASS3					   */ .byte  0x1
+/* SPECIES_FIRE1					   */ .byte  0x1
+/* SPECIES_FIRE2					   */ .byte  0x0
+/* SPECIES_FIRE3					   */ .byte  0x0
+/* SPECIES_WATER1					   */ .byte  0x0
+/* SPECIES_WATER2					   */ .byte  0x0
+/* SPECIES_WATER3					   */ .byte  0x0
+
+/* SPECIES_LEGEND					   */ .byte  0x0
+
 /* SPECIES_MEGA_VENUSAUR   */ .byte  0x1
 /* SPECIES_MEGA_CHARIZARD_X*/ .byte  0x0
 /* SPECIES_MEGA_CHARIZARD_Y*/ .byte  0x0
@@ -1388,6 +1400,17 @@ gIconPalTable:
 /* SPECIES_OGERPON_CORNERSTONE_MASK    */ .byte  0x0
 /* SPECIES_TERAPAGOS_STELLAR           */ .byte  0x0
 /* SPECIES_URSALUNA_BLOODMOON          */ .byte  0x2
+
+/* SPECIES_MAREEP_STALIXEAN            */ .byte  0x0
+/* SPECIES_FLAAFFY_STALIXEAN           */ .byte  0x0
+/* SPECIES_AMPHAROS_STALIXEAN          */ .byte  0x0
+/* SPECIES_MEGA_AMPHAROS_STALIXEAN	   */ .byte  0x0
+/* SPECIES_CASTFORM_SANDY              */ .byte  0x0
+/* SPECIES_LEGEND_SUNNY				   */ .byte  0x0
+/* SPECIES_LEGEND_RAINY				   */ .byte  0x0
+/* SPECIES_LEGEND_SNOWY				   */ .byte  0x0
+/* SPECIES_LEGEND_SANDY				   */ .byte  0x0
+/* SPECIES_SUDOWOODO_STALIXEAN         */ .byte  0x1
 
 .endarea
 

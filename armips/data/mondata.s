@@ -9959,7 +9959,7 @@ mondata SPECIES_MAMOSWINE, "Mamoswine"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_OBLIVIOUS, ABILITY_SNOW_CLOAK
+    abilities ABILITY_FORECAST, ABILITY_FORECAST
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_MAMOSWINE, "A frozen MAMOSWINE was dug from ice\ndating back 10,000 years. This Pokémon\nhas been around a long, long, long time."
@@ -20132,7 +20132,7 @@ mondata SPECIES_FLORAGATO, "Floragato"
     mondexweight SPECIES_FLORAGATO, "26.9 lbs."
 
 
-mondata SPECIES_MEOWSCARADA, "Mewscarada"
+mondata SPECIES_MEOWSCARADA, "Meowscarada"
     basestats 76, 110, 70, 123, 81, 70
     types TYPE_GRASS, TYPE_DARK
     catchrate 45
@@ -22609,6 +22609,186 @@ mondata SPECIES_PECHARUNT, "Pecharunt"
     mondexheight SPECIES_PECHARUNT, "1’00”"
     mondexweight SPECIES_PECHARUNT, "0.7 lbs."
 
+mondata SPECIES_GRASS1, "GRASS1"
+    basestats 44, 58, 44, 61, 58, 44
+    types TYPE_GRASS, TYPE_GRASS
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_GRASS1, "The gas made in its belly burns from\nits rear end. The GRASS burns weakly\nwhen it feels sick."
+    mondexclassification SPECIES_GRASS1, "Chimp Pokémon"
+    mondexheight SPECIES_GRASS1, "1’08”"
+    mondexweight SPECIES_GRASS1, "13.7 lbs."
+
+mondata SPECIES_GRASS2, "GRASS2"
+    basestats 44, 58, 44, 61, 58, 44
+    types TYPE_GRASS, TYPE_FAIRY
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_GRASS2, "The gas made in its belly burns from\nits rear end. The GRASS burns weakly\nwhen it feels sick."
+    mondexclassification SPECIES_GRASS2, "Chimp Pokémon"
+    mondexheight SPECIES_GRASS2, "1’08”"
+    mondexweight SPECIES_GRASS2, "13.7 lbs."
+
+mondata SPECIES_GRASS3, "GRASS3"
+    basestats 44, 58, 44, 61, 58, 44
+    types TYPE_GRASS, TYPE_FAIRY
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_GRASS3, "The gas made in its belly burns from\nits rear end. The GRASS burns weakly\nwhen it feels sick."
+    mondexclassification SPECIES_GRASS3, "Chimp Pokémon"
+    mondexheight SPECIES_GRASS3, "1’08”"
+    mondexweight SPECIES_GRASS3, "13.7 lbs."
+
+mondata SPECIES_FIRE1, "FIRE1"
+    basestats 44, 58, 44, 61, 58, 44
+    types TYPE_FIRE, TYPE_STEEL
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_FIRE1, "The gas made in its belly burns from\nits rear end. The fire burns weakly\nwhen it feels sick."
+    mondexclassification SPECIES_FIRE1, "Chimp Pokémon"
+    mondexheight SPECIES_FIRE1, "1’08”"
+    mondexweight SPECIES_FIRE1, "13.7 lbs."
+
+mondata SPECIES_FIRE2, "FIRE2"
+    basestats 44, 58, 44, 61, 58, 44
+    types TYPE_FIRE, TYPE_STEEL
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_FIRE2, "The gas made in its belly burns from\nits rear end. The fire burns weakly\nwhen it feels sick."
+    mondexclassification SPECIES_FIRE2, "Chimp Pokémon"
+    mondexheight SPECIES_FIRE2, "1’08”"
+    mondexweight SPECIES_FIRE2, "13.7 lbs."
+
+mondata SPECIES_FIRE3, "FIRE3"
+    basestats 44, 58, 44, 61, 58, 44
+    types TYPE_FIRE, TYPE_STEEL
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_FIRE3, "The gas made in its belly burns from\nits rear end. The fire burns weakly\nwhen it feels sick."
+    mondexclassification SPECIES_FIRE3, "Chimp Pokémon"
+    mondexheight SPECIES_FIRE3, "1’08”"
+    mondexweight SPECIES_FIRE3, "13.7 lbs."
+
+mondata SPECIES_WATER1, "WATER1"
+    basestats 44, 58, 44, 61, 58, 44
+    types TYPE_WATER, TYPE_WATER
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_WATER1, "The gas made in its belly burns from\nits rear end. The WATER burns weakly\nwhen it feels sick."
+    mondexclassification SPECIES_WATER1, "Chimp Pokémon"
+    mondexheight SPECIES_WATER1, "1’08”"
+    mondexweight SPECIES_WATER1, "13.7 lbs."
+
+mondata SPECIES_WATER2, "WATER2"
+    basestats 44, 58, 44, 61, 58, 44
+    types TYPE_WATER, TYPE_FIGHTING
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_WATER2, "The gas made in its belly burns from\nits rear end. The WATER burns weakly\nwhen it feels sick."
+    mondexclassification SPECIES_WATER2, "Chimp Pokémon"
+    mondexheight SPECIES_WATER2, "1’08”"
+    mondexweight SPECIES_WATER2, "13.7 lbs."
+
+mondata SPECIES_WATER3, "WATER3"
+    basestats 44, 58, 44, 61, 58, 44
+    types TYPE_WATER, TYPE_FIGHTING
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    mondexentry SPECIES_WATER3, "The gas made in its belly burns from\nits rear end. The WATER burns weakly\nwhen it feels sick."
+    mondexclassification SPECIES_WATER3, "Chimp Pokémon"
+    mondexheight SPECIES_WATER3, "1’08”"
+    mondexweight SPECIES_WATER3, "13.7 lbs."
+
 
 mondata SPECIES_MEGA_VENUSAUR, "-----"
     basestats 80, 100, 123, 80, 122, 120
@@ -24273,6 +24453,22 @@ mondata SPECIES_CASTFORM_SNOWY, "-----"
     abilities ABILITY_FORECAST, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
+
+mondata SPECIES_CASTFORM_SANDY, "-----"
+    basestats 70, 70, 70, 70, 70, 70
+    types TYPE_GROUND, TYPE_GROUND
+    catchrate 45
+    baseexp 147
+    evyields 1, 0, 0, 0, 0, 0
+    items ITEM_MYSTIC_WATER, ITEM_MYSTIC_WATER
+    genderratio 127
+    eggcycles 25
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FAIRY, EGG_GROUP_AMORPHOUS
+    abilities ABILITY_FORECAST, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
 
 mondata SPECIES_CHERRIM_SUNSHINE, "-----"
     basestats 70, 90, 70, 85, 87, 117
@@ -27217,3 +27413,168 @@ mondata SPECIES_URSALUNA_BLOODMOON, "-----"
     abilities ABILITY_MINDS_EYE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
+
+mondata SPECIES_MAREEP_STALIXEAN, "-----"
+    basestats 55, 35, 35, 50, 65, 40
+    types TYPE_ELECTRIC, TYPE_DARK
+    catchrate 235
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 1, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
+    abilities ABILITY_STATIC, ABILITY_LIGHTNING_ROD
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+
+mondata SPECIES_FLAAFFY_STALIXEAN, "-----"
+    basestats 70, 50, 50, 60, 80, 55
+    types TYPE_ELECTRIC, TYPE_DARK
+    catchrate 120
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
+    abilities ABILITY_STATIC, ABILITY_LIGHTNING_ROD
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+
+
+mondata SPECIES_AMPHAROS_STALIXEAN, "-----"
+    basestats 90, 65, 75, 85, 115, 80
+    types TYPE_ELECTRIC, TYPE_DARK
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
+    abilities ABILITY_STATIC, ABILITY_LIGHTNING_ROD
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+
+mondata SPECIES_MEGA_AMPHAROS_STALIXEAN, "-----"
+    basestats 90, 75, 85, 105, 165, 90
+    types TYPE_ELECTRIC, TYPE_DARK
+    catchrate 45
+    baseexp 194
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
+    abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
+    runchance 0
+    colorflip 0, 0
+
+mondata SPECIES_SUDOWOODO_STALIXEAN, "-----"
+    basestats 70, 100, 115, 30, 30, 65
+    types TYPE_ROCK, TYPE_GRASS
+    catchrate 65
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 2, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_STURDY, ABILITY_SAP_SIPPER
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+
+mondata SPECIES_LEGEND, "LEGEND"
+    basestats 100, 116, 116, 116, 116, 116
+    types TYPE_DRAGON, TYPE_NORMAL
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_LUM_BERRY, ITEM_NONE
+    genderratio 255
+    eggcycles 120
+    basefriendship 100
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_FORECAST, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    mondexentry SPECIES_LEGEND, "Apparently, it appears only to\nthose people who are pure of heart\nand have a strong desire to see it."
+    mondexclassification SPECIES_LEGEND, "New Species Pokémon"
+    mondexheight SPECIES_LEGEND, "1’04”"
+    mondexweight SPECIES_LEGEND, "8.8 lbs."
+
+mondata SPECIES_LEGEND_SUNNY, "-----"
+    basestats 100, 146, 86, 116, 146, 86
+    types TYPE_DRAGON, TYPE_FIRE
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_LUM_BERRY, ITEM_NONE
+    genderratio 255
+    eggcycles 120
+    basefriendship 100
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_FORECAST, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+
+mondata SPECIES_LEGEND_RAINY, "-----"
+    basestats 100, 86, 116, 116, 116, 146
+    types TYPE_DRAGON, TYPE_WATER
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_LUM_BERRY, ITEM_NONE
+    genderratio 255
+    eggcycles 120
+    basefriendship 100
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_FORECAST, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+
+mondata SPECIES_LEGEND_SNOWY, "-----"
+    basestats 100, 86, 86, 146, 146, 116
+    types TYPE_DRAGON, TYPE_ICE
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_LUM_BERRY, ITEM_NONE
+    genderratio 255
+    eggcycles 120
+    basefriendship 100
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_FORECAST, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+
+mondata SPECIES_LEGEND_SANDY, "-----"
+    basestats 100, 116, 146, 86, 86, 146
+    types TYPE_DRAGON, TYPE_GROUND
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_LUM_BERRY, ITEM_NONE
+    genderratio 255
+    eggcycles 120
+    basefriendship 100
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_FORECAST, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0

@@ -33,8 +33,10 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             sp->client_work = sp->turnOrder[i];
         }
 
-        //handle castform
-        if ((sp->battlemon[sp->client_work].species == SPECIES_CASTFORM)
+        //handle castform and legend
+		//Legend line is too long but more readable this way
+        if ((sp->battlemon[sp->client_work].species == SPECIES_CASTFORM 
+			|| (sp->battlemon[sp->client_work].species == SPECIES_LEGEND && ((sp->battlemon[sp->client_work].item == ITEM_WEATHER_LOCK&& sp->battlemon[sp->client_work].form_no == 0)|| sp->battlemon[sp->client_work].item != ITEM_WEATHER_LOCK)))
          && (sp->battlemon[sp->client_work].hp)
          && (GetBattlerAbility(sp,sp->client_work) == ABILITY_FORECAST))
         {
@@ -42,7 +44,7 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
              && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0))
             {
                 // Snow does not affect Castform in SV, since it cannot enter Paldea, Kitakami nor Blueberry Academy there is no way to confirm
-                if (((sp->field_condition & (WEATHER_RAIN_ANY | WEATHER_SUNNY_ANY | WEATHER_HAIL_ANY)) == 0)
+                if (((sp->field_condition & (WEATHER_RAIN_ANY | WEATHER_SUNNY_ANY | WEATHER_HAIL_ANY | WEATHER_SANDSTORM_ANY)) == 0)
                  && (sp->battlemon[sp->client_work].form_no != 0))
                 {
                     sp->battlemon[sp->client_work].form_no = 0;
@@ -78,6 +80,15 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                     ret = TRUE;
                     break;
                 }
+				else if ((sp->field_condition & WEATHER_SANDSTORM_ANY)
+					&& (sp->battlemon[sp->client_work].form_no != 4))
+				{
+					sp->battlemon[sp->client_work].form_no = 4;
+					BattleFormChange(sp->client_work, sp->battlemon[sp->client_work].form_no, bw, sp, 1);
+					*seq_no = SUB_SEQ_FORM_CHANGE;
+					ret = TRUE;
+					break;
+				}
             }
             else if ((sp->battlemon[sp->client_work].form_no != 0))
             {
@@ -89,7 +100,9 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             }
         }
         // ability is NOT forecast, but is still an alive castform
-        else if ((sp->battlemon[sp->client_work].species == SPECIES_CASTFORM)
+        else if ((sp->battlemon[sp->client_work].species == SPECIES_CASTFORM 
+			|| (sp->battlemon[sp->client_work].species == SPECIES_LEGEND
+				&& sp->battlemon[sp->client_work].item != ITEM_WEATHER_LOCK))
               && (sp->battlemon[sp->client_work].hp)
               && (sp->battlemon[sp->client_work].form_no != 0))
         {

@@ -3919,4 +3919,23 @@ eggmoveentry SPECIES_FRILLISH_FEMALE
 	eggmove MOVE_PAIN_SPLIT
 	eggmove MOVE_RECOVER
 
+eggmoveentry SPECIES_MAREEP_STALIXEAN
+    eggmove MOVE_TAKE_DOWN
+    eggmove MOVE_BODY_SLAM
+    eggmove MOVE_SAFEGUARD
+    eggmove MOVE_SCREECH
+    eggmove MOVE_REFLECT
+    eggmove MOVE_ODOR_SLEUTH
+    eggmove MOVE_CHARGE
+    eggmove MOVE_FLATTER
+    eggmove MOVE_SAND_ATTACK
+
+eggmoveentry SPECIES_SUDOWOODO_STALIXEAN
+    eggmove MOVE_SELF_DESTRUCT
+    eggmove MOVE_HEADBUTT
+    eggmove MOVE_HARDEN
+    eggmove MOVE_DEFENSE_CURL
+    eggmove MOVE_ROLLOUT
+    eggmove MOVE_SAND_TOMB
+
 terminateeggmoves
